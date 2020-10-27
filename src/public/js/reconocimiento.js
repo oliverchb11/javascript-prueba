@@ -1,4 +1,4 @@
-const URL = "./model/";
+const URL = "../model/";
 
 let model, webcam, labelContainer, maxPredictions;
 let texto = document.querySelector('#texto')
@@ -36,7 +36,7 @@ async function loop() {
 }
 
 // run the webcam image through the image model
-async function predict() {
+const predict = async() => {
     // predict can take in an image, video or canvas html element
     const prediction = await model.predict(webcam.canvas);
     for (let i = 0; i < maxPredictions; i++) {

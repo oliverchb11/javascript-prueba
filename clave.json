@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "alertabancaria",
+  "private_key_id": "b5026113fb72f3afcc3b68af104267abbfb40b7d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZyE9YXHuPPzAq\npxyp9wTPIcFEAJdibBm6Miy3Hr6AXa21FGK5sscxykXQ8KHxSU5a+6Rr+lvoF79F\nHvXXgjrcyhDPekk7zIBD/9YAkQpb/WxfNL99zc3DhH4VwATnyOPfYRy1ueQ1Rte8\n1VVX+k7unuW/xd097tkyivNEMZUS62jPnXz20HXHIyESqlh0if/zUmm0oxroL0EC\nNVO9Y4ezQjwJjQjSwPUNQh9Zt5ygtFAiauZqwcv4JAmmPcbHlFJMNlC2cyO2Jjw5\nWQqzRF9pFdS6Xjm6b7WeARhwrkA3FWxGCOQ+3ppDN1AcpbX2Zg2d6Ls15Y5RdGs/\nWGAfmZrzAgMBAAECggEAASjZAaYPinN5W1ZPlC/YJJsGYuBhmSzj1BsXv45m9P8q\ngFCLNAeXPUFfXbrKxc/TMZgZ08nwp83cs9qOvlVtjdz6MSOkv2OEiL66RYknxld2\nrzsYbIxA48YGe1yAzPdJ/JULYIq/yppiUGVdaOCVeB17nFgTbymeD/sAkurldbM3\nYs6nTJTY8OVpkBCzKf52J2VcpxpT3FPBRmY5qCacw6DygrMGH1oUKDeKwgRvBvQH\nbUm6cAuBe3jFT3JVp/QZVBHWEj1Xg/3nLXOdZIZm74uFAf30pEO2UypFYH68Vtt/\nIsOVbVrhZfpmYL06xd68klGpM2P7tHIR8gRs0zw4AQKBgQDVuKJx1iyDIpGXjiW8\ndI3WdmFEcLTFuJuE6cfW2J5ws+pxUJeeIAj955bKml6a41Txpcmp/arm84ngBAne\nSdUhVuw0xCyJNEVsfKV/xaEIj3WRQoPBiC9WlLvLGDinB03MpBd6eMNmfQ84A8+0\nDaFFCzHgu2hSeFnXIJ5k345C8wKBgQC4NDrLSVE4zEZbE/do9WLqytAjYlVFC9vG\nuMMb0xpwPDCbgSotSbXjeyEy9R//uePKmAF5rDvVkxsYgwuIrTA830YQgpiUzwXD\njVJRREH3pM8IZ7oFxGpfcfPGV/glGLm56vW3r1Nddqexn/1fXVLYFer+MmLDnMgu\nBSaBxa1IAQKBgHQ7N81lR0wCLuAXpJo7YTAzrW6FRSsK3TmJ0u8bW/+7OVNrGyoa\nDgnYO3/wOGdQH1BUc7qJhLqZ1HAKgjtsOAcruMZxsi7kSKVZnMBCgPOg4bWgUPud\nzvDtbrxjbdwY8szKqSIoL0y70t0J5Znsl7pu/i9UfMXtQh7nVH1Tv5DVAoGBAKoO\nzhjPX0TokiuTi15C7UeGZhHEvqQ4Bna4LKiLhGUJrHZkEOQuoNWa31OEKj6VB1AK\ndZI3CCZs4R8IHKXZ/ia0mqKzbtozJkcbOVv9gEl4xgokeQDKDMqBEWWT4WueIBkc\nai1il7w5xyedZPWd2tXTpld3fObK36Rc7Ofx78ABAoGAWXZoiFzsZezaITKgganZ\nF42eUjZbxPaJ6eCIusPUG/6LCZov11QNIiNdyZoNcqkTHmNO/J8d85VveKuiUF1f\nMYE7zTV47pF7h9QPYFnI11L25ND99mHb8tMkY95f+xZYlZREGvPGslHTdNNf8sdX\n58MrukDU509m0N8qEyyBNas=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-rjg81@alertabancaria.iam.gserviceaccount.com",
+  "client_id": "109538128476262344221",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-rjg81%40alertabancaria.iam.gserviceaccount.com"
+}
