@@ -2,6 +2,10 @@ const URL = "../model/";
 
 let model, webcam, labelContainer, maxPredictions;
 let texto = document.querySelector('#texto')
+let inputnombre = document.querySelector('#inputnombre');
+// let texto1 = document.querySelector('#texto1')
+// let post = document.getElementById('#post').action = 'http://localhost:3000';
+
 
 async function init() {
     const modelURL = URL + "model.json";
@@ -43,14 +47,20 @@ const predict = async() => {
         const classPrediction =
             prediction[i].className + ": " + prediction[i].probability.toFixed(2);
         // labelContainer.childNodes[i].innerHTML = classPrediction;
-        if (prediction[i].probability.toFixed(2) > 0.80) {
-            // console.log(`Eres ${prediction[i].className} con una probabilidad de ${prediction[i].probability.toFixed(2)}`);
+        if (prediction[i].probability.toFixed(2) > 0.60) {
+            inputnombre.value = `${prediction[i].className}`
+                // console.log(`Eres ${prediction[i].className} con una probabilidad de ${prediction[i].probability.toFixed(2)}`);
             if (prediction[i].className === 'Popeye' || prediction[i].className === 'Garavito' || prediction[i].className === 'Pablo Escobar') {
 
                 texto.innerHTML = `Tu eres ${prediction[i].className} con una probabilidad de ${prediction[i].probability.toFixed(2)} Eres un Criminal`;
+
             } else {
                 texto.innerHTML = `Tu eres ${prediction[i].className} con una probabilidad de ${prediction[i].probability.toFixed(2)} No Eres un Criminal`;
             }
+
         }
     }
+
+
+
 }

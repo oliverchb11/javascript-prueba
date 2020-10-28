@@ -13,9 +13,9 @@ app.set("views", path.join(__dirname, "views"));
 
 //middlewares
 app.use(morgan("dev"));
-
-//rutas
-app.use("/detector", rutas)
+app.use(express.urlencoded({ extended: false }))
+    //rutas
+app.use("/", rutas)
 
 //staticfiles
 app.use(express.static(path.join(__dirname, "public")));
